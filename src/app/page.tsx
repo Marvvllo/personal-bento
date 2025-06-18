@@ -113,16 +113,16 @@ export default function Home() {
 			</section>
 
 			{/* Instagram Section */}
-			<section className="instagram-area bg-foreground text-text flex flex-col gap-4 rounded-lg px-4 py-2 md:items-center md:justify-center md:gap-4">
+			<section className="instagram-area bg-foreground text-text flex flex-col gap-4 rounded-lg p-4 md:items-center md:justify-center md:gap-4">
 				<div className="flex w-full flex-row items-center gap-2">
 					<Image
-						className="rounded-full"
+						className="size-6 rounded-full md:size-10"
 						src="/ig-post.png"
 						alt="Instagram Profile Picture"
-						width={30}
-						height={30}
+						width={120}
+						height={120}
 					/>
-					<p>nyaivu</p>
+					<p className="font-semibold md:text-lg">nyaivu</p>
 				</div>
 				<Link href="https://www.instagram.com/nyaivu/" target="_blank">
 					<Image
@@ -134,8 +134,8 @@ export default function Home() {
 					/>
 				</Link>
 				<p className="w-full">
-					nyaivu stole your luvv, my bad yea...{" "}
-					<span className="text-accent">more...</span>
+					<span className="font-bold">nyaivu</span> stole your luvv, my bad
+					yea... <span className="text-accent">more...</span>
 				</p>
 			</section>
 

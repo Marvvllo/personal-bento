@@ -6,10 +6,10 @@ export default function Home() {
 		<main className="bg-background text-text main-grid flex flex-col gap-4 p-4 md:grid">
 			{/* Intro Section */}
 			<section className="hero-area bg-foreground text-accent flex flex-col gap-4 rounded-lg p-4 md:justify-center">
-				<h1 className="text-xl">
+				<h1 className="text-xl md:text-2xl">
 					<span className="text-text">Marvello Nyahu</span> is coding...
 				</h1>
-				<div className="flex flex-col gap-4">
+				<div className="flex flex-col gap-4 md:text-lg">
 					<p className="text-accent">I am a web developer. </p>
 					<p>I also like designing user interfaces.</p>
 					<p>I think design and development go hand-in-hand.</p>
@@ -26,7 +26,7 @@ export default function Home() {
 
 			{/* Skills Section */}
 			<section className="skills-area bg-foreground text-text flex flex-col gap-4 rounded-lg p-4 md:justify-center">
-				<h2 className="bg-background rounded-md p-2 text-lg">
+				<h2 className="bg-background rounded-md p-2 text-lg md:text-xl">
 					The things I do...
 				</h2>
 				<div className="bg-background flex cursor-pointer flex-row items-center justify-center gap-1 rounded-md p-2 text-lg transition hover:bg-gray-300">
@@ -58,10 +58,10 @@ export default function Home() {
 
 			{/* Education Section */}
 			<section className="education-area bg-foreground text-accent flex flex-col gap-4 rounded-lg p-4 md:justify-center">
-				<h2 className="text-xl">
+				<h2 className="text-xl md:text-2xl">
 					My <span className="text-text">Education</span>...
 				</h2>
-				<div className="flex flex-col gap-2">
+				<div className="flex flex-col gap-2 md:gap-4">
 					<div className="flex flex-col">
 						<p>Graduated as the best software engineer</p>
 						<p className="text-text">
@@ -91,10 +91,10 @@ export default function Home() {
 
 			{/* Career Section */}
 			<section className="career-area bg-foreground text-accent flex flex-col gap-4 rounded-lg p-4 md:justify-center">
-				<h2 className="text-xl">
+				<h2 className="text-xl md:text-2xl">
 					My <span className="text-text">Career</span> so far...
 				</h2>
-				<div className="flex flex-col gap-2">
+				<div className="flex flex-col gap-2 md:gap-4 md:text-lg">
 					<div className="flex flex-col">
 						<p>
 							Front-end Developer{" "}
@@ -122,7 +122,7 @@ export default function Home() {
 						width={120}
 						height={120}
 					/>
-					<p className="font-semibold md:text-lg">nyaivu</p>
+					<p className="font-semibold md:text-xl">nyaivu</p>
 				</div>
 				<Link href="https://www.instagram.com/nyaivu/" target="_blank">
 					<Image
@@ -133,7 +133,7 @@ export default function Home() {
 						height={600}
 					/>
 				</Link>
-				<p className="w-full">
+				<p className="w-full md:text-lg">
 					<span className="font-bold">nyaivu</span> stole your luvv, my bad
 					yea... <span className="text-accent">more...</span>
 				</p>
@@ -170,10 +170,10 @@ export default function Home() {
 
 			{/* Hobby Section */}
 			<section className="hobby-area bg-foreground text-accent flex flex-col gap-4 rounded-lg p-4">
-				<h2 className="text-xl">
+				<h2 className="text-xl md:text-2xl">
 					In my <span className="text-text">free time</span>, I...
 				</h2>
-				<div className="flex flex-col gap-1">
+				<div className="flex flex-col gap-1 md:gap-2 md:text-lg">
 					<p>play online games...</p>
 					<Image
 						className="rounded-md"

@@ -26,9 +26,7 @@ export default function Home() {
 
 			{/* Skills Section */}
 			<section className="skills-area bg-foreground text-text flex flex-col gap-4 rounded-lg p-4 md:justify-center">
-				<h2 className="bg-background rounded-md p-2 text-lg md:text-xl">
-					The things I do...
-				</h2>
+				<h2 className="text-lg md:text-xl">The things I do...</h2>
 				<div className="bg-background flex cursor-pointer flex-row items-center justify-center gap-1 rounded-md p-2 text-lg transition hover:bg-gray-300">
 					<Image
 						src="/react-logo.svg"

@@ -148,7 +148,7 @@ export default function Home() {
 					height={400}
 				/>
 				<Link
-					className="bg-background absolute bottom-4 left-4 z-10 flex flex-row items-center gap-1 rounded-md px-2 py-1"
+					className="bg-background absolute bottom-4 left-4 z-10 flex flex-row items-center gap-1 rounded-md px-2 py-1 transition hover:bg-slate-300"
 					href="https://nyaivu.com"
 					target="_blank">
 					Portfolio{" "}
@@ -219,7 +219,7 @@ export default function Home() {
 					</svg>
 					<p>Instagram</p>
 					<Link
-						className="bg-background flex flex-row items-center gap-1 rounded-md px-2 py-1"
+						className="bg-background flex flex-row items-center gap-1 rounded-md px-2 py-1 transition hover:bg-slate-300"
 						href="https://www.instagram.com/nyaivu/"
 						target="_blank">
 						@nyaivu
@@ -251,7 +251,7 @@ export default function Home() {
 					</svg>
 					<p>Github</p>
 					<Link
-						className="bg-background flex flex-row items-center gap-1 rounded-md px-2 py-1"
+						className="bg-background flex flex-row items-center gap-1 rounded-md px-2 py-1 transition hover:bg-slate-300"
 						href="https://github.com/Marvvllo"
 						target="_blank">
 						marvvllo

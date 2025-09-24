@@ -147,9 +147,9 @@ export default function Home() {
 				/>
 				<Link
 					className="bg-background absolute bottom-4 left-4 z-10 flex flex-row items-center gap-1 rounded-md px-2 py-1 transition hover:bg-slate-300"
-					href="https://nyaivu.com"
+					href="https://fake-store.nyaivu.com"
 					target="_blank">
-					Portfolio{" "}
+					E-Commerce Prototype
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
